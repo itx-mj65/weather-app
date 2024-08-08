@@ -1,0 +1,99 @@
+.Container{
+    width: 100%;
+    height: 100dvh;
+    background-image: url('../Picture/Weatherbg.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.Container .heading{
+    width: 100%;
+    padding: 18px 0;
+    color: skyblue;
+    margin-top: -130px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Container .heading img{
+    width: 100%;
+    max-width: 50px;
+}
+
+.Container form{
+    padding: 50px 0px;
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    border-radius: 7px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+} 
+
+form:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+
+.Container form .weather_input{
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: #dcdcdc;
+    padding: 10px 0px 10px 5px;
+    border-radius: 7px;
+}
+
+.Container form .Buttons{
+    width: 100%;
+    text-align: center;
+
+}
+
+.Container form .get_weather_btn{
+    width: 35%;
+    outline: none;
+    border: none;
+    background-color: skyblue;
+    padding: 5px 0px 5px 5px;
+    border-radius: 200px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.Container form .get_weather_btn:hover{
+    background-color: rgb(57, 183, 233);
+}
+
+form .inner_container {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+form .inner_container h1{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form .inner_container p{
+    color: #fff;
+}
+.inner_container p .opt_color{
+    color: rgb(133, 220, 255);
+}

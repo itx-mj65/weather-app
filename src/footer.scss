@@ -1,0 +1,20 @@
+$heading_text:#fff;
+
+@mixin footer-con() {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $heading_text;
+
+    p{
+        color: #fff;
+    }
+}
+
+.footer{
+    @include footer-con;
+}

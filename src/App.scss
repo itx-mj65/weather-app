@@ -1,0 +1,52 @@
+@import "footer";
+
+$heading_text: #222020;
+
+@mixin container() {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    @include container;
+}
+
+// $myColorV:violet;
+// $myColorI:indigo;
+// $myColorB:blue;
+// $myColorG:green;
+// $myColorY:yellow;
+// $myColorO:orange;
+// $myColorR:red;
+
+// h1{
+//     color: $myColorR;
+// }
+
+// h2{
+//     color: $myColorO;
+// }n
+
+// h3{
+//     color: $myColorY; 
+// }
+
+// h4{
+//     color: $myColorG;
+// }
+
+// h5{
+//     color: $myColorB;
+// }
+
+// h6{
+//     color: $myColorI;
+// }
+
+// p{
+//     color: $myColorV;
+// }
